@@ -17,13 +17,35 @@ body {
 }
 
 .menu_itens {
-    font: 14px bold;
     width: 314px;
     list-style-type: none;
     display: flex;
     justify-content: space-between;
     margin-top: 30px;
     margin-left: 43px;
+}
+
+button {
+    font-size: 14px;
+    width: 85px;
+    background: none;
+    position: relative;
+    border: none;
+    transition: .4s ease-in;
+    z-index: 1;
+}
+
+button ::before,
+button::after {
+    position: absolute;
+    content: "";
+    z-index: -1;
+}
+
+.btn:hover {
+    background-color: #628ECB;
+    box-shadow: 0 0 5px #628ECB, 0 0 25px #628ECB,
+                0 0 50px #628ECB, 0 0 100px #628ECB;
 }
 
 .banner {
@@ -49,7 +71,7 @@ body {
 }
 
 h2 {
-    font-size: 44px;
+    font-size: 32px;
     font-weight: 200;
     line-height: 1.5rem;
 }

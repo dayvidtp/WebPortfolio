@@ -2,3 +2,39 @@
     width: 100vw;
     height: 2000px;
 }
+
+.about_skills_container {
+    margin: 0 100px;
+    height: 552px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#about {
+    width: 502px;
+    margin-top: 80px;
+}
+
+#skills {
+    border: 1px solid red;
+    width: 504px;
+    height: 300px;
+    margin-top: 250px;
+}
+
+#tabela_skills {
+    width: 504px;
+    padding-top: 15px;
+}
+
+.titulos_cards {
+    color: #395886;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.subtitulos_cards {
+    color: #395886;
+    font-size: 24px;
+    font: 200;
+}

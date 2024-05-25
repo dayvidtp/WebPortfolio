@@ -1,8 +1,12 @@
 * {
-    font-family: "roboto";
-    color: #fff;
+    font-family: "Open Sans";
+    color: #F0F3FA;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     border: 0;
+}
+
+a {
+    text-decoration: none;
 }

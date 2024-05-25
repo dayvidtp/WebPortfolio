@@ -2,74 +2,108 @@ body {
     background-color: #ebebeb;
 }
 
-.banner {
-    background: radial-gradient(#37424B 0%, #29333C 100%);
-    width: 100vw;
-    height: 550px;
-}
-
 .menu_container {
+    background-color: #395886;
     display: flex;
-    justify-content: space-between;
     width: 100vw;
     height: 75px;
 }
 
 .menu_logo {
-    font: 12px bold;
+    font-size: 16px;
+    font-weight: bold;
     margin-top: 30px;
     margin-left: 100px;
 }
 
 .menu_itens {
-    font: 12px bold;
-    width: 313px;
+    font: 14px bold;
+    width: 314px;
     list-style-type: none;
     display: flex;
     justify-content: space-between;
-    margin-right: 100px;
     margin-top: 30px;
+    margin-left: 43px;
+}
+
+.banner {
+    background-color: #395886;
+    width: 100vw;
+    height: 645px;
 }
 
 .logo_container {
+    margin: 0px 100px;
+    height: 590px;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    width: 100vw;
-    height: 475px;
 }
 
 .logo_principal {
-    border: 10px solid #ebebeb;
-    border-radius: 10px;
+    width: 675px;
+    height: 306px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: left;
-    padding-left: 30px;
-    width: 510px;
-    height: 154px;
-}
-
-h1 {
-    font-family: "Roboto Slab", serif;
-    font-size: 48px;
-    font-weight: 700;
-    letter-spacing: 3px;
-    color: #EBEBEB;
+    justify-content: space-around;
 }
 
 h2 {
-    font-size: 20px;
-    font-weight: 300;
-    text-transform: lowercase;
-    color: #ebebeb;
+    font-size: 44px;
+    font-weight: 200;
+    line-height: 1.5rem;
 }
 
-.slogan {
-    margin-top: 10px;
-    font-size: 20px;
-    font-weight: 200;
-    color: #ebebeb;
+h1 {
+    font-size: 85px;
+    font-weight: bold;
+}
+
+#line {
+    border: 3px solid white;
+    width: 400px;
+}
+
+h3 {
+  font-size: 34px;
+  font-weight: 200;  
+}
+
+.redes_socias {
+    list-style: none;
+    width: 145px;
+    height: 34px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.icons {
+    width: 34px;
+    height: 34px;
+}
+
+.img_container {
+    width: 700px;
+    height: 700px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#img_perfil {
+    width: 700px;
+    position: absolute;
+    z-index: 2;
+}
+
+#circulo_perfil {
+    position: absolute;
+    z-index: 1;
+    width: 568px;
+    height: 568px;
+    background-color: #628ECB;
+    opacity: 0.2;
+    border-radius: 50%;
 }

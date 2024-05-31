@@ -10,7 +10,7 @@
     justify-content: space-between;
 }
 
-#about {
+#sobre_mim {
     width: 502px;
     margin-top: 80px;
 }
@@ -35,5 +35,19 @@
 .subtitulos_cards {
     color: #395886;
     font-size: 24px;
-    font: 200;
+    font-weight: 200;
+}
+
+#services_card {
+    border: 1px solid red;
+    margin: 0 100px;
+    height: 432px;
+}
+
+.service_card {
+    border: 1px solid blue;
+    width: 250px;
+    height: 300px;
+    border-radius: 8px;
+    background-color: #628ECB;
 }

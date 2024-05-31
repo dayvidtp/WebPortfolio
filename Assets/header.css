@@ -55,6 +55,7 @@ button::after {
 }
 
 .logo_container {
+    position: relative;
     margin: 0px 100px;
     height: 590px;
     display: flex;
@@ -63,11 +64,12 @@ button::after {
 }
 
 .logo_principal {
-    width: 675px;
+    width: 875px;
     height: 306px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    position: relative;
 }
 
 h2 {
@@ -82,7 +84,7 @@ h1 {
 }
 
 #line {
-    border: 3px solid white;
+    border: 3px solid #f0f3fa;
     width: 400px;
 }
 
@@ -110,19 +112,18 @@ h3 {
     height: 700px;
     position: relative;
     display: flex;
-    align-items: center;
     justify-content: center;
 }
 
 #img_perfil {
     width: 700px;
     position: absolute;
-    z-index: 2;
+    z-index: 3;
 }
 
 #circulo_perfil {
     position: absolute;
-    z-index: 1;
+    z-index: 2;
     width: 568px;
     height: 568px;
     background-color: #628ECB;

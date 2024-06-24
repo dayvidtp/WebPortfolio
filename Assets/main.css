@@ -50,3 +50,21 @@
     border-radius: 8px;
     background-color: #628ECB;
 }
+
+#services {
+    border: 1px solid red;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.conteudo {
+    width: 1200px;
+}
+
+.card_servico {
+    border: 1px solid red;
+    width: 579px;
+    height: 386px;
+}

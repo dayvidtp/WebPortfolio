@@ -17,7 +17,7 @@ body {
     align-items: center;
     width: 1200px;
     height: 75px;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: bold;
 }
 
@@ -78,13 +78,13 @@ button::after {
 }
 
 h2 {
-    font-size: 32px;
+    font-size: 2rem;
     font-weight: 200;
     line-height: 1.5rem;
 }
 
 h1 {
-    font-size: 85px;
+    font-size: 5.31rem;
     font-weight: bold;
 }
 
@@ -94,7 +94,7 @@ h1 {
 }
 
 h3 {
-  font-size: 34px;
+  font-size: 2.13rem;
   font-weight: 200;  
 }
 

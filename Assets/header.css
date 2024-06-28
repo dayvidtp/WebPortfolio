@@ -5,24 +5,27 @@ body {
 .menu_container {
     background-color: #395886;
     display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
     width: 100vw;
     height: 75px;
 }
 
 .menu_logo {
+    display: flex;
+    align-items: center;
+    width: 1200px;
+    height: 75px;
     font-size: 16px;
     font-weight: bold;
-    margin-top: 30px;
-    margin-left: 100px;
 }
 
 .menu_itens {
-    width: 314px;
+    width: 500px;
     list-style-type: none;
     display: flex;
     justify-content: space-between;
-    margin-top: 30px;
-    margin-left: 43px;
 }
 
 button {

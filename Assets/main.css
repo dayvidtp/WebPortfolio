@@ -1,9 +1,11 @@
 .main_container {
     width: 100vw;
+    display: flex;
+    justify-content: center;
 }
 
 .about_skills_container {
-    margin: 0 100px;
+    width: 1200px;
     height: 552px;
     display: flex;
     justify-content: space-between;

@@ -55,19 +55,21 @@ button::after {
     background-color: #395886;
     width: 100vw;
     height: 645px;
+    display: flex;
+    justify-content: center;
 }
 
 .logo_container {
     position: relative;
-    margin: 0px 100px;
-    height: 590px;
+    width: 1200px;
+    height: 645px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 .logo_principal {
-    width: 875px;
+    width: 750px;
     height: 306px;
     display: flex;
     flex-direction: column;
@@ -112,14 +114,15 @@ h3 {
 
 .img_container {
     width: 700px;
-    height: 700px;
+    height: 645px;
     position: relative;
     display: flex;
     justify-content: center;
 }
 
 #img_perfil {
-    width: 700px;
+    width: 645px;
+    height: 645px;
     position: absolute;
     z-index: 3;
 }
@@ -127,8 +130,8 @@ h3 {
 #circulo_perfil {
     position: absolute;
     z-index: 2;
-    width: 568px;
-    height: 568px;
+    width: 500px;
+    height: 500px;
     background-color: #628ECB;
     opacity: 0.2;
     border-radius: 50%;

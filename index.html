@@ -20,29 +20,7 @@
     </style>
 
     <!-- Scripts EmailJs -->
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
-    <script type="text/javascript">
-        (function() {
-            // https://dashboard.emailjs.com/admin/account
-            emailjs.init({
-              publicKey: "xcoQ5JS3MDFhRHcBe",
-            });
-        })();
-    </script>
-    <script type="text/javascript">
-        window.onload = function() {
-            document.getElementById('contact_inputs').addEventListener('submit', function(event) {
-                event.preventDefault();
-                // these IDs from the previous steps
-                emailjs.sendForm('service_m3my7df', 'contact_inputs', this)
-                    .then(() => {
-                        console.log('SUCCESS!');
-                    }, (error) => {
-                        console.log('FAILED...', error);
-                    });
-            });
-        }
-    </script>
+    
 
 </head>
 
@@ -320,12 +298,12 @@
                 </h1>
             </div>
             <div id="contact_inputs_container">
-                <div id="contact_inputs">
-                    <input class="input_field" type="text" id="from_name" placeholder="Nome Completo:" required>
-                    <input class="input_field" type="email" id="email_id" placeholder="E-mail:">
+                <form id="contact-form">
+                    <input class="input_field" type="text" id="user_name" placeholder="Nome Completo:" required>
+                    <input class="input_field" type="email" id="user_email" placeholder="E-mail:" required>
                     <textarea name="Mensagem" placeholder="Mensagem:" id="message" required></textarea>
-                    <input type="submit" value="Enviar" id="submit">
-                </div>
+                    <button type="submit" id="submit">Enviar</button>
+                </form>
                 <div id="contact_icons_link">
                     <ul class="redes_socias">
                         <!-- GitHub Icon -->
@@ -377,10 +355,10 @@
     <footer id="footer">
         <button class="btn" id="btn-inicio"><a href="#btn.inicio">Início</a></button></li>
     </footer>
-
+    
+    <script src="./Assets/JavaScript/email.js"></script>
 </body>
 
-<!-- Scripts -->
-<script src="./Assets/email.js"></script>
+
 
 </html>

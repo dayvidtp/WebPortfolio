@@ -29,7 +29,7 @@
 }
 
 .input_field,
-#text_area {
+#message {
     border: 1px solid #838383;
     color: #838383;
     width: 500px;
@@ -39,12 +39,12 @@
     border-radius: 7px;
 }
 
-#text_area {
+#message {
     height: 172px;
     padding: 8px;
 }
 
-#summit {
+#submit {
     background-color: #395886;
     font-family: "Open Sans";
     font-weight: 300;

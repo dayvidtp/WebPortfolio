@@ -20,7 +20,7 @@
     </style>
 
     <!-- Scripts EmailJs -->
-    
+
 
 </head>
 
@@ -28,7 +28,7 @@
     <nav class="menu_container">
         <div class="menu_logo">
             <p>Dayvidtp.</p>
-     
+
             <ul class="menu_itens">
                 <li><button class="btn" id="btn.inicio"><a href="">Início</a></button></li>
                 <li><button class="btn"><a href="#sobre_mim">Sobre mim</a></button></li>
@@ -277,14 +277,16 @@
                     <img src="./Assets/images/card_landing_page.jpg" class="img_card_container"></img>
                     <div class="description_card_servico">
                         <h3>Landing Page</h3>
-                        <p>Turn visitors into customers with personalized landing pages, making you stand out on the web.</p>
+                        <p>Turn visitors into customers with personalized landing pages, making you stand out on the
+                            web.</p>
                     </div>
                 </div>
                 <div class="card_servico">
                     <img src="./Assets/images/card_ecommerce_website.jpg" class="img_card_container"></img>
                     <div class="description_card_servico">
                         <h3>E-Commerse</h3>
-                        <p>Turn visitors into customers with personalized landing pages, making you stand out on the web.</p>
+                        <p>Turn visitors into customers with personalized landing pages, making you stand out on the
+                            web.</p>
                     </div>
                 </div>
             </div>
@@ -298,12 +300,17 @@
                 </h1>
             </div>
             <div id="contact_inputs_container">
-                <form id="contact-form">
-                    <input class="input_field" type="text" id="user_name" placeholder="Nome Completo:" required>
-                    <input class="input_field" type="email" id="user_email" placeholder="E-mail:" required>
+                <form id="form">
+                    <input class="input_field" type="text" id="user-name" placeholder="Nome Completo:" required>
+                    <input class="input_field" type="email" id="user-email" placeholder="E-mail:" required>
                     <textarea name="Mensagem" placeholder="Mensagem:" id="message" required></textarea>
                     <button type="submit" id="submit">Enviar</button>
                 </form>
+
+                <script
+                src="https://smtpjs.com/v3/smtp.js">
+                </script>
+
                 <div id="contact_icons_link">
                     <ul class="redes_socias">
                         <!-- GitHub Icon -->
@@ -355,8 +362,9 @@
     <footer id="footer">
         <button class="btn" id="btn-inicio"><a href="#btn.inicio">Início</a></button></li>
     </footer>
-    
-    <script src="./Assets/JavaScript/email.js"></script>
+
+    <script src="./Assets/JavaScript/form.js"></script>
+
 </body>
 
 

@@ -20,7 +20,7 @@
     font-size: 3.75rem;
 }
 
-#contact-form {
+#form {
     width: 500px;
     height: 454px;
     display: flex;
@@ -29,7 +29,7 @@
 }
 
 .input_field,
-#message {
+#user-message {
     border: 1px solid #838383;
     color: #838383;
     width: 500px;
@@ -39,7 +39,7 @@
     border-radius: 7px;
 }
 
-#message {
+#user-message {
     height: 172px;
     padding: 8px;
 }

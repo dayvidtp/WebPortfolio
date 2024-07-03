@@ -29,7 +29,7 @@
 }
 
 .input_field,
-#user-message {
+#user_message {
     border: 1px solid #838383;
     color: #838383;
     width: 500px;
@@ -39,7 +39,7 @@
     border-radius: 7px;
 }
 
-#user-message {
+#user_message {
     height: 172px;
     padding: 8px;
 }

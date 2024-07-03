@@ -20,7 +20,8 @@
     </style>
 
     <!-- Scripts EmailJs -->
-
+    <script type="text/javascript" src="./Assets/JavaScript/npm-emailjs.js"></script>
+    <script src="./Assets/JavaScript/form.js"></script>
 
 </head>
 
@@ -301,15 +302,16 @@
             </div>
             <div id="contact_inputs_container">
                 <form id="form">
-                    <input class="input_field" type="text" id="user-name" placeholder="Nome Completo:" required>
-                    <input class="input_field" type="email" id="user-email" placeholder="E-mail:" required>
-                    <textarea name="Mensagem" placeholder="Mensagem:" id="user-message" required></textarea>
-                    <button type="submit" id="submit">Enviar</button>
+                    <input type="hidden" name="contact_number" value="#697483">
+                    <input class="input_field" type="text" id="user_name" placeholder="Nome Completo:" required>
+                    <input class="input_field" type="email" id="user_email" placeholder="E-mail:" required>
+                    <textarea name="Mensagem" placeholder="Mensagem:" id="user_message" required></textarea>
+                    <button type="submit" value="send" id="submit">Enviar</button>
                 </form>
 
-                <script
+                <!-- <script 
                 src="./Assets/JavaScript/smtp.js">
-                </script>
+                </script> -->
 
                 <div id="contact_icons_link">
                     <ul class="redes_socias">
@@ -363,7 +365,8 @@
         <button class="btn" id="btn-inicio"><a href="#btn.inicio">Início</a></button></li>
     </footer>
 
-    <script src="./Assets/JavaScript/form.js"></script>
+    
+   
 
 </body>
 

@@ -6,7 +6,6 @@
 
 .about_skills_container {
     width: 1200px;
-    height: 552px;
     display: flex;
     justify-content: space-between;
 }
@@ -18,7 +17,6 @@
 
 #skills {
     width: 504px;
-    height: 300px;
     margin-top: 250px;
 }
 
